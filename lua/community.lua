@@ -38,5 +38,7 @@ return {
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.tailwindcss" },
+  { import = "astrocommunity.editing-support.bigfile-nvim" },
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
 }
