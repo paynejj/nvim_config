@@ -1,4 +1,3 @@
-
 -- AstroCore provides a central place to modify mappings, vim options, autocommands, and more!
 -- Configuration documentation can be found with `:h astrocore`
 -- NOTE: We highly recommend setting up the Lua Language Server (`:LspInstall lua_ls`)
@@ -65,6 +64,7 @@ return {
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
       },
       t = {
+        ["<Leader><esc>"] = { "<C-\\><C-n>:ToggleTerm<CR>", desc = "Close Terminal" },
         -- setting a mapping to false will disable it
         -- ["<esc>"] = false,
       },
