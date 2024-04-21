@@ -9,6 +9,7 @@ return {
   { import = "astrocommunity.editing-support.bigfile-nvim" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.motion.mini-surround" },
+  { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.full-dadbod" },
   { import = "astrocommunity.pack.java" },
